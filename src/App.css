@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +30,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.column{
+  display: inline-block;
+  margin-right:25px;
+}
+
+.cardlist-header{
+  height: 30px;
+  width:100%;
+  
+}
+
+.card{
+  background: white;
+  color: black;
+  border: lightgrey 1px dotted;
+}
+
+.moveLeft{
+  float: left;
+}
+.moveRight{
+  float: right;
 }
